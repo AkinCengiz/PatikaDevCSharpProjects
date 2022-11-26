@@ -7,24 +7,20 @@
             ints[i] = 0;
             continue;
         }
-
         if (i == 1)
         {
             ints[i] = 1;
             continue;
         }
-
         ints[i] = ints[i - 1] + ints[i - 2];
     }
 }
-
 void ArrayWrite(int[] ints)
 {
     foreach (int number in ints)
     {
-        Console.Write("{0,3}",number);
+        Console.Write("{0,3}", number);
     }
-
     Console.WriteLine();
 }
 int ArrayTotal(int[] ints)
@@ -36,7 +32,6 @@ int ArrayTotal(int[] ints)
     }
     return total;
 }
-
 float ArrayAverage(int x, int y)
 {
     return (float)x / y;
@@ -51,22 +46,16 @@ int Dimension(int i)
             i = Convert.ToInt32(Console.ReadLine());
         }
     } while (i <= 1);
-
     return i;
 }
-
 Console.Write("Fibonacci Serisinin Boyutunu Giriniz : ");
 int dimension = Convert.ToInt32(Console.ReadLine());
-
 Dimension(dimension);
-
 int[] fibonaccies = new int[dimension];
 float average;
 int total;
-
 ArrayLoad(fibonaccies);
 total = ArrayTotal(fibonaccies);
 average = ArrayAverage(total, dimension);
-
 ArrayWrite(fibonaccies);
-Console.WriteLine("{0} boyutlu fibonacci serilerinin :\nToplamı : {1}\nOrtalaması : {2,5}",dimension,total,average.ToString());
+Console.WriteLine("{0} boyutlu fibonacci serilerinin :\nToplamı : {1}\nOrtalaması : {2,5}", dimension, total, average.ToString());
