@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaCalculate", "AreaCalcul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DualAlgoritma", "DualAlgoritma\DualAlgoritma.csproj", "{D58BB162-922E-4C7F-A8A6-72C19D4A9D10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Absolute", "Absolute\Absolute.csproj", "{51D925C5-E5EB-4007-9BF4-AB6A5911EBA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D58BB162-922E-4C7F-A8A6-72C19D4A9D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D58BB162-922E-4C7F-A8A6-72C19D4A9D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D58BB162-922E-4C7F-A8A6-72C19D4A9D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D925C5-E5EB-4007-9BF4-AB6A5911EBA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D925C5-E5EB-4007-9BF4-AB6A5911EBA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D925C5-E5EB-4007-9BF4-AB6A5911EBA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D925C5-E5EB-4007-9BF4-AB6A5911EBA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
