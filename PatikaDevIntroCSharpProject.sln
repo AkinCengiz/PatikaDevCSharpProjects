@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSerial", "Fibonacc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleDraw", "TriangleDraw\TriangleDraw.csproj", "{362CCB89-533C-4660-9EC3-18B96A647CE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleDraw", "CircleDraw\CircleDraw.csproj", "{881B2F16-5B2B-4EF0-93AA-985FD1ECD1E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{362CCB89-533C-4660-9EC3-18B96A647CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{362CCB89-533C-4660-9EC3-18B96A647CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{362CCB89-533C-4660-9EC3-18B96A647CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{881B2F16-5B2B-4EF0-93AA-985FD1ECD1E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{881B2F16-5B2B-4EF0-93AA-985FD1ECD1E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{881B2F16-5B2B-4EF0-93AA-985FD1ECD1E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{881B2F16-5B2B-4EF0-93AA-985FD1ECD1E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
