@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircleDraw", "CircleDraw\Ci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringAlgoritma", "StringAlgoritma\StringAlgoritma.csproj", "{746DFB66-713E-4EB4-9559-AA81C3B3C8EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterChange", "CharacterChange\CharacterChange.csproj", "{4FEEE719-E93B-495F-B093-2B815FC2755F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{746DFB66-713E-4EB4-9559-AA81C3B3C8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{746DFB66-713E-4EB4-9559-AA81C3B3C8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{746DFB66-713E-4EB4-9559-AA81C3B3C8EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FEEE719-E93B-495F-B093-2B815FC2755F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FEEE719-E93B-495F-B093-2B815FC2755F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FEEE719-E93B-495F-B093-2B815FC2755F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FEEE719-E93B-495F-B093-2B815FC2755F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

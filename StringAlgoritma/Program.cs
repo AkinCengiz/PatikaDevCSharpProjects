@@ -17,7 +17,7 @@ namespace StringAlgoritma
             number = Convert.ToInt32(wordList[1]);
             Console.WriteLine("Kelime : {0}\nSayı   : {1}",word,number);
             word = word.Remove(number, 1);
-            Console.WriteLine(word);
+            Console.WriteLine("Kelime : {0}", word);
         }
     }
 }
