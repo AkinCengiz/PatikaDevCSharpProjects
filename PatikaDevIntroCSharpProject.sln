@@ -9,15 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriangleDraw", "TriangleDra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircleDraw", "CircleDraw\CircleDraw.csproj", "{881B2F16-5B2B-4EF0-93AA-985FD1ECD1E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringAlgoritma", "StringAlgoritma\StringAlgoritma.csproj", "{746DFB66-713E-4EB4-9559-AA81C3B3C8EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringAlgoritma", "StringAlgoritma\StringAlgoritma.csproj", "{746DFB66-713E-4EB4-9559-AA81C3B3C8EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterChange", "CharacterChange\CharacterChange.csproj", "{4FEEE719-E93B-495F-B093-2B815FC2755F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterChange", "CharacterChange\CharacterChange.csproj", "{4FEEE719-E93B-495F-B093-2B815FC2755F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaCalculate", "AreaCalculate\AreaCalculate.csproj", "{198EA6CC-1456-4172-A38F-BB52A5C08A4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreaCalculate", "AreaCalculate\AreaCalculate.csproj", "{198EA6CC-1456-4172-A38F-BB52A5C08A4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DualAlgoritma", "DualAlgoritma\DualAlgoritma.csproj", "{D58BB162-922E-4C7F-A8A6-72C19D4A9D10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DualAlgoritma", "DualAlgoritma\DualAlgoritma.csproj", "{D58BB162-922E-4C7F-A8A6-72C19D4A9D10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Absolute", "Absolute\Absolute.csproj", "{51D925C5-E5EB-4007-9BF4-AB6A5911EBA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Absolute", "Absolute\Absolute.csproj", "{51D925C5-E5EB-4007-9BF4-AB6A5911EBA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterChanger", "CharacterChanger\CharacterChanger.csproj", "{6EBB7BFD-E23D-4BCB-A17A-EF65C49197A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{51D925C5-E5EB-4007-9BF4-AB6A5911EBA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51D925C5-E5EB-4007-9BF4-AB6A5911EBA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51D925C5-E5EB-4007-9BF4-AB6A5911EBA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EBB7BFD-E23D-4BCB-A17A-EF65C49197A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBB7BFD-E23D-4BCB-A17A-EF65C49197A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBB7BFD-E23D-4BCB-A17A-EF65C49197A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBB7BFD-E23D-4BCB-A17A-EF65C49197A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
