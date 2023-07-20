@@ -9,9 +9,9 @@ namespace AreaCalculate
     internal interface IPolygon
     {
         int numberOfSides { get; set; }
-        int width { get; set; }
-        int heigt { get; set; }
-        decimal AreaCalculate(params int[] sides);
-        decimal PerimeterCalculate(params int[] sides);
+        double width { get; set; }
+        double heigth { get; set; }
+        double AreaCalculate(params double[] sides);
+        double PerimeterCalculate(params double[] sides);
     }
 }

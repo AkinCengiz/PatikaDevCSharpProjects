@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DualAlgoritma", "DualAlgori
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Absolute", "Absolute\Absolute.csproj", "{51D925C5-E5EB-4007-9BF4-AB6A5911EBA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterChanger", "CharacterChanger\CharacterChanger.csproj", "{6EBB7BFD-E23D-4BCB-A17A-EF65C49197A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterChanger", "CharacterChanger\CharacterChanger.csproj", "{6EBB7BFD-E23D-4BCB-A17A-EF65C49197A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consonent", "Consonent\Consonent.csproj", "{7C32EB99-7E11-476F-B792-7622751DAB16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consonent", "Consonent\Consonent.csproj", "{7C32EB99-7E11-476F-B792-7622751DAB16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VotingApplication", "VotingApplication\VotingApplication.csproj", "{25B32CB0-304E-4431-94BA-11C343123B46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{7C32EB99-7E11-476F-B792-7622751DAB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C32EB99-7E11-476F-B792-7622751DAB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C32EB99-7E11-476F-B792-7622751DAB16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25B32CB0-304E-4431-94BA-11C343123B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25B32CB0-304E-4431-94BA-11C343123B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25B32CB0-304E-4431-94BA-11C343123B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25B32CB0-304E-4431-94BA-11C343123B46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

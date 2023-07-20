@@ -13,13 +13,13 @@ namespace AreaCalculate
             get { return this.numberOfSides; }
             set { this.numberOfSides = 4; }
         }
-        public int width { get; set; }
-        public int heigt { get; set; }
+        public double width { get; set; }
+        public double heigth { get; set; }
 
 
-        public decimal AreaCalculate(params int[] sides)
+        public double AreaCalculate(params double[] sides)
         {
-            decimal area = 1;
+            double area = 1;
             foreach (var side in sides)
             {
                 area *= side;
@@ -27,9 +27,9 @@ namespace AreaCalculate
             return area;
         }
 
-        public decimal PerimeterCalculate(params int[] sides)
+        public double PerimeterCalculate(params double[] sides)
         {
-            decimal perimeter = 0;
+            double perimeter = 0;
             foreach (int side in sides)
             {
                 perimeter += side;
@@ -40,12 +40,12 @@ namespace AreaCalculate
 
         public Rectangle()
         {
-            Console.Write("Taban uzunluğunu giriniz     : ");
+            Console.Write("Taban uzunluğunu giriniz\t: ");
             this.width = Convert.ToInt32(Console.ReadLine());
-            Console.Write("\nYükseklik uzunluğunu giriniz : ");
-            this.heigt = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("\nDikdörtgenin alanı       : {0,3}",AreaCalculate(this.heigt,this.width));
-            Console.WriteLine("\nDikdörtgenin çevresi     : {0,3}", PerimeterCalculate(this.width, this.heigt));
+            Console.Write("\nYükseklik uzunluğunu giriniz\t: ");
+            this.heigth = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\nDikdörtgenin alanı\t: {0,3}",AreaCalculate(this.heigth,this.width));
+            Console.WriteLine("\nDikdörtgenin çevresi\t: {0,3}", PerimeterCalculate(this.width, this.heigth));
         }
     }
 }

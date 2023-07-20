@@ -13,21 +13,22 @@ namespace AreaCalculate
             get { return this.numberOfSides; }
             set { this.numberOfSides = 4; }
         }
-        public int width { get; set; }
-        public int heigt {
-            get { return this.heigt; }
-            set { this.heigt = width; }
+        public double width { get; set; }
+
+        public double heigth {
+            get { return this.heigth; }
+            set { this.heigth = width; }
         }
 
 
-        public decimal AreaCalculate(params int[] sides)
+        public double AreaCalculate(params double[] sides)
         {
             return sides[0] * sides[0];
         }
 
-        public decimal PerimeterCalculate(params int[] sides)
+        public double PerimeterCalculate(params double[] sides)
         {
-            decimal perimeter = sides[0] * 4;
+            double perimeter = sides[0] * 4;
             return perimeter;
         }
 
